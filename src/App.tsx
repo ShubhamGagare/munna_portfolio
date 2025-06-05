@@ -10,14 +10,12 @@ import TakeRegister from "@/pages/TakeRegister";
 import NotFound from "@/pages/NotFound";
 import VolpayTestSuite from "@/pages/VolpayTestSuite";
 import ParentPayOverview from "@/pages/ParentPayOverview";
-import { Analytics } from "@vercel/analytics/next"
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
-      <Analytics/>
       <Sonner />
       <BrowserRouter>
         <Routes>
