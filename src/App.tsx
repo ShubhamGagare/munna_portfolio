@@ -3,13 +3,13 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import BigMarket from "./pages/BigMarket";
-import FireRegister from "./pages/FireRegister";
-import TakeRegister from "./pages/TakeRegister";
-import NotFound from "./pages/NotFound";
-import VolpayTestSuite from "./pages/VolpayTestSuite";
-import ParentPayOverview from "./pages/ParentPayOverview";
+import Index from "@/pages/Index";
+import BigMarket from "@/pages/BigMarket";
+import FireRegister from "@/pages/FireRegister";
+import TakeRegister from "@/pages/TakeRegister";
+import NotFound from "@/pages/NotFound";
+import VolpayTestSuite from "@/pages/VolpayTestSuite";
+import ParentPayOverview from "@/pages/ParentPayOverview";
 import { Analytics } from "@vercel/analytics/next"
 const queryClient = new QueryClient();
 
