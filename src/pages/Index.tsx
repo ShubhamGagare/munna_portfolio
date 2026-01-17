@@ -23,230 +23,236 @@ const Index = () => {
       element.scrollIntoView({ behavior: "smooth" })
     }
   }
+
   const workExperience = [
     {
-      company: "Siyaratech Innovations, Pune",
+      company: "Siyaratech Innovations",
       role: "Founding Engineer",
       period: "November 2024 – Present",
-      munnaQuote: "Start-up ki duniya mein kadaam rakhte hi, humne socha—React aur Spring Boot ki jodi bajao!",
-      broQuote: "Startup life hit different when you're shipping React + Spring Boot like it's your morning coffee ☕",
+      munnaQuote: "Founding Engineer bhai! 0 se 1 tak product banaya. 8 logon ki team sambhali, design se code tak sab dekha. Startup ka asli mazaa!",
+      broQuote: "Founding Engineer mode: ON. Shipped 0→1 products, led a squad of 8, owned the entire stack + design. Startup life is crazy but we shipping! 🚀",
       highlights: [
-        "Development + UX ki lead: Do bade platforms ke liye poori zimmedari uthai—design se leke code tak, sab dekhte hue 'Boss, chinta mat karo!'",
-        "Consortium MVP: Influencer-based e-commerce platform aur admin portal React + Spring Boot me banaya—'Influencer ke products, bas click karo, dikha do!'",
-        "TechDiveHub AI: Ek AI-driven education platform design kiya—Next.js + React + LLMs ka jadoo lagaya. Clean UI/UX patterns, full responsive—'Teacher ji bhi bole, waah bhai waah!'",
-        "Full-stack me dhamaal: UX design se leke design systems, phir frontend aur backend development tak—'Ek hi haath me design brush, doosre me code ki chaku!'",
-        "Team ko desi tadka: Frontend team ko lead kiya, mentor kiya—'Bhai, components kaise likhte hain?' sab sikhaya, collaboration ka maza laaye.",
-        "Rapid iterations with feedback: Designers aur developers ke saath Figma me brainstorming—'Yeh thoda fast karo, yeh thoda slow karo'—phir user feedback pe seedha action liya.",
+        "Product Ownership: Led architecture, frontend, backend, and UX for multiple 0→1 products (AI-Driven Learning, Enterprise Security, Construction Mgmt).",
+        "Team Leadership: Led & mentored a cross-functional team of 8 (Frontend + AI engineers). Defined code quality & delivery standards.",
+        "Rapid Execution: Built and shipped MVPs rapidly using React, Next.js, Java Spring Boot, and modern APIs.",
+        "Design Systems: Designed and implemented design systems ensuring consistent UX across all platforms.",
+        "Sales Impact: Improved proposal acceptance rates by 25% through structured communication strategies with founders/clients.",
+        "Tech Stack: React, Next.js, Java, Spring Boot, AI/LLM integrations.",
       ],
       broHighlights: [
-        "Wore multiple hats: Led dev + UX for two major platforms from concept to deployment—basically became the 'go-to guy' for everything frontend and backend 🎯",
-        "Built Consortium MVP: Full influencer e-commerce platform with admin portal using React + Spring Boot—think 'Instagram shopping but actually functional' 🛒",
-        "Designed TechDiveHub AI: AI-powered education platform with Next.js + React + LLMs. Clean UI patterns, fully responsive—even teachers said 'this actually makes sense!' 🤓",
-        "Full-stack wizard mode: From UX sketches to design systems to frontend/backend code—one person, entire product pipeline 🧙‍♂️",
-        "Team lead & mentor: Guided frontend team, taught component patterns—'How do we build this?' became my favorite question to answer 👨‍🏫",
-        "Agile iterations on steroids: Daily Figma sessions with designers/devs—'make this faster, slow that down'—then immediate user feedback implementation 🔄",
+        "Zero to One: Architected & shipped multiple products from scratch. AI Learning, Security tools, Construction tech—we built it all.",
+        "Squad Lead: Captained a team of 8. Mentorship, code reviews, setting the bar high. We move fast and break nothing.",
+        "Speed Demon: Shipped MVPs at lightning speed using the modern stack (React, Next.js, Spring Boot).",
+        "Design System Ops: Built the UI language so everything looks premium and consistent.",
+        "Business Wins: Helped close 25% more deals by nailing the technical proposals. Tech + Business = 🤝",
       ],
       professionalHighlights: [
-        "Led end-to-end development and UX for two major platforms, handling design through code implementation",
-        "Built Consortium MVP: Influencer-based e-commerce platform with admin portal using React + Spring Boot",
-        "Designed TechDiveHub AI: AI-driven education platform with Next.js + React + LLMs integration, featuring clean UI/UX patterns and full responsiveness",
-        "Managed full-stack development from UX design to design systems, frontend and backend development with modern design principles",
-        "Led and mentored frontend team, fostering collaboration and knowledge sharing",
-        "Executed rapid iterations with continuous feedback loops between designers, developers, and users",
+        "Led architecture, frontend, backend, and UX for multiple 0→1 products including AI-Driven Learning Platform and Enterprise Security tools",
+        "Led and mentored a cross-functional team of 8 engineers, defining delivery standards and release processes",
+        "Built and shipped MVPs rapidly using React, Next.js, Java Spring Boot, and modern APIs",
+        "Designed and implemented design systems to ensure consistent UX across platforms",
+        "Improved proposal acceptance rates by 25% through structured communication strategies with clients",
+        "Owned deployment, monitoring, and scalability for production systems",
       ],
-
+      link: "https://siyaratechin.com",
     },
     {
-      company: "ParentPay Group, Pune",
+      company: "ParentPay Group",
       role: "Product Designer",
       period: "November 2021 – March 2024",
-      munnaQuote: "School life simple banao, tension kam karo!",
-      broQuote: "Making school admin less painful, one UI at a time 🏫",
+      munnaQuote: "UK ke schools ke liye kaam kiya. User research se pata chala kya chahiye. 25% adoption badhaya!",
+      broQuote: "Built for UK schools. User research driven. Boosted adoption by 25%. Design that actually works.",
       highlights: [
-        "User Research ka dhamaka: UK school staff se interview liye, unki roz ki problems samjhe—'Teacher bhai, fire register kab karein?' poocha, solutions dhoonde.",
-        "Wireframes banaye Fire & Take Register ke liye: Low-fidelity se high-fidelity tak—sketches se mockups, Figma me prototyping—sab dikhaya kaise 'Woosh!' ho ke design ready hota hai.",
-        "Feedback pe jadoo: Pilot schools se mili feedback se design ko improvise kiya—aur kya, user adoption 25% se upar chala gaya! Sab kehte, 'Bhai, design mast hai!'",
-        "School staff khush hua: New design ki tareef school staff ne ki—'Shaandar interface hai, samajh aa gaya sab kuch!'",
+        "User Research: Conducted interviews with UK school staff to understand pain points in daily operations.",
+        "Design Designs: Created low-to-high fidelity workflows for critical modules like Fire Register and Attendance.",
+        "Impact: Iterated based on pilot feedback, boosting user adoption by 25%.",
+        "Collaboration: Worked closely with engineers, PMs, and stakeholders to ensure feasible and clear designs.",
+        "Recognition: Won Best Team Award (2023) for high-impact product delivery.",
       ],
       broHighlights: [
-        "Deep user research: Interviewed UK school staff, learned their daily struggles—'When do we do fire drills?' became my research goldmine 🔍",
-        "Wireframe master: Built Fire & Take Register features from rough sketches to polished Figma prototypes—watched ideas come alive in real-time ✨",
-        "Feedback-driven design: Iterated based on pilot school feedback—boosted user adoption by 25%+. Schools literally said 'this design slaps!' 📈",
-        "Happy users = happy me: School staff praised the intuitive interface—'Finally, something that makes sense!' was the common feedback 😊",
+        "Research First: Talked to real users (UK school staff) to figure out what they actually needed.",
+        "Pixel Perfect: Designed everything from wireframes to high-fi prototypes for critical school systems.",
+        "Big Numbers: Design improvements led to a 25% jump in user adoption. ROI 📈",
+        "Team Player: Synced with devs and PMs to make sure the design was buildable and solid.",
+        "Trophy Cabinet: Bagged the Best Team Award (2023). We don't miss. 🏆",
       ],
       professionalHighlights: [
-        "Conducted comprehensive user research with UK school staff, identifying daily operational challenges and designing targeted solutions",
-        "Created wireframes for Fire & Take Register features, progressing from low-fidelity sketches to high-fidelity mockups and interactive Figma prototypes",
-        "Improved user adoption by 25%+ through iterative design based on pilot school feedback",
-        "Received positive feedback from school staff for intuitive interface design and improved user experience",
+        "Worked on SIMS Next Gen, a large-scale UK education platform",
+        "Conducted user research and interviews with UK school administrators and staff",
+        "Designed low- to high-fidelity workflows for critical modules such as Fire Register and Attendance",
+        "Iterated designs based on pilot-school feedback, contributing to a 25% increase in user adoption",
+        "Recognized with Best Team Award (2023) for high-impact product delivery",
       ],
-      link: "/parentpay"
+      link: "/parentpay",
     },
     {
-      company: "Big Market, Pune",
-      role: "Full Stack Developer (Freelance)",
-      period: "Feb 2021 – Apr 2021",
-      munnaQuote: "Local grocery startup ko bana diya online superstar!",
-      broQuote: "Turned a local grocery idea into a digital shopping experience 🛒",
-      highlights: [
-        "Customer ki baat pe dhyan: User research kiya, interviews liye—'Bhai, kya chahiye customers ko?' samjha, unke needs note kiye.",
-        "Wireframes & Prototypes: Pen–paper se wireframe, phir Figma pe prototype banaya—kisi ko confuse nahi hone diya.",
-        "End-to-End Web App: React + Node.js + PostgreSQL ka combo—'Ek hi haath se sab kuch banaya'—UI se leke backend database tak, sab handle kiya.",
-      ],
-      broHighlights: [
-        "Customer-first approach: Did user research and interviews—'What do customers actually want?'—took notes, made it happen 📝",
-        "Wireframe to reality: Started with pen-paper sketches, evolved to Figma prototypes—no confusion, just clear user flows 🎨",
-        "Full-stack solo mission: React + Node.js + PostgreSQL stack—built everything from UI to database, one-person army style 💪",
-      ],
-      professionalHighlights: [
-        "Conducted user research and interviews to understand customer needs and requirements",
-        "Created wireframes and prototypes from pen-paper sketches to Figma prototypes for clear user experience",
-        "Developed end-to-end web application using React + Node.js + PostgreSQL stack, handling UI through backend database",
-      ],
-      link: "/big-market"
-
-    },
-    {
-      company: "Volante Technologies, Pune",
+      company: "Volante Technologies",
       role: "Software Engineer",
       period: "March 2019 – November 2021",
-      munnaQuote: "Jab Volpay ne bola automate karne ka, humne bola 'Kar denge, Boss!'",
-      broQuote: "When Volpay said 'automate this,' we said 'bet, let's do it!' 🚀",
+      munnaQuote: "Automation ka jadoo! Testers ka 40% kaam kam kiya. Java aur AngularJS pe haath saaf kiya.",
+      broQuote: "Automation wizardry. Slashed tester effort by 40%. Java + Angular = Enterprise scale wins.",
       highlights: [
-        "Team of 3 ka jadoo: Hum teen log the—design se leke development tak, Volpay ke multiple versions mein automation tools ko integrate kiya.",
-        "User Research ka nasha: UK school staff jaise nahi, par Volpay ke end users se baat ki, unki problems samjhe, nayi features ka design banaya—sab milke, team mein.",
-        "Frontend–Backend ka tadka: Ek haath se AngularJS (HTML, CSS) me UI banaya, doosre haath se Java me backend likha. Dono haath chalate hi chal gaye!",
-        "Testers ki zindagi aasan bani: Automation configuration ko itna tez kiya ki testers ka 40% time bach gaya—woh khush, hum khush!",
-        "Product Managers & QA ka pyaar: PMs, BAs aur QA teams ke saath collaborate karke quality rock-solid rakhi—'Bhai, bugs ka toh naam-o-nishaan nahin' wala level.",
+        "Full Stack Dev: Built frontend with AngularJS and backend services in Java for enterprise payment platforms.",
+        "Automation: Designed tools that reduced tester effort by ~40%. Efficiency level up!",
+        "Collaboration: Worked with PMs, BAs, and QA teams across multiple releases of VolPay.",
+        "Recognition: Received Best Team Award (2020) for Goldman Sachs engagement.",
       ],
       broHighlights: [
-        "Squad of 3 magic: Our small team handled everything—design to development across multiple Volpay versions, integration ninjas at work 🥷",
-        "User research mode: Talked to Volpay end users, understood their pain points, designed new features collaboratively—teamwork made the dream work 🤝",
-        "Full-stack hustle: Built AngularJS (HTML, CSS) frontends with one hand, wrote Java backends with the other—ambidextrous coding FTW 🙌",
-        "Tester happiness level: Optimized automation config so hard that testers saved 40% of their time—they were happy, we were happy, everyone wins! 🎉",
-        "Quality squad love: Collaborated with PMs, BAs, and QA teams to maintain rock-solid quality—bugs didn't stand a chance 🐛💀",
+        "Enterprise Stack: AngularJS + Java. Built the heavy machinery for payment platforms.",
+        "Efficiency Hack: Built automation tools that saved testers 40% of their time. Work smarter, not harder.",
+        "Team Synergy: Crushed releases with the PM and QA squads.",
+        "Gold Standard: Won Best Team Award (2020) for the Goldman Sachs project. 🥇",
       ],
       professionalHighlights: [
-        "Collaborated in a team of 3 to integrate automation tools across multiple versions of Volpay, handling design through development",
-        "Conducted user research with Volpay end users, understanding pain points and designing new features collaboratively",
-        "Developed full-stack solutions using AngularJS (HTML, CSS) for frontend and Java for backend development",
-        "Improved automation configuration efficiency, reducing testing time by 40% and enhancing team productivity",
-        "Collaborated with Product Managers, Business Analysts, and QA teams to maintain rock-solid quality standards",
+        "Developed frontend components using HTML, CSS, AngularJS and backend services in Java",
+        "Designed automation tools that reduced tester effort by ~40%",
+        "Collaborated with Product Managers, BAs, and QA teams across releases",
+        "Contributed to multiple versions of VolPay, a large-scale financial product",
+        "Received Best Team Award (2020) for product implementations (Goldman Sachs engagement)",
       ],
-      link: "/volpay-testsuite"
-
+      link: "/volpay-testsuite",
     },
   ]
 
   const deliveredProjects = [
     {
-      title: "Influencer Commerce MVP",
-      subtitle: "React + Spring Boot professional hustle",
-      broSubtitle: "Built an actual e-commerce platform that influencers use to make money 💰",
+      title: "TechDiveHub AI",
+      subtitle: "AI ka Jalwa",
+      broSubtitle: "AI Learning Platform that actually works",
       description:
-        "Complete e-commerce platform for influencers built at Siyaratech Innovations. Features payment integration, inventory management, admin dashboard, user auth. Currently being used by creators to sell products.",
+        "An AI-driven learning platform built leveraging LLMs. Focused on accessibility, performance, and a clean UI/UX. Teachers love it!",
       broDescription:
-        "Full-stack e-commerce platform where influencers can actually sell their stuff. Built with React + Spring Boot, includes payments, inventory tracking, admin panels, user auth—the whole nine yards. Real creators are using it to make real money right now.",
-      tech: ["React", "Spring Boot", "JWT", "PostgreSQL", "Payment Gateway"],
+        "AI-powered education platform leveraging LLMs using Next.js. Clean UI/UX, fully responsive, and performance-tuned. Teachers are literally saying 'This makes sense!'",
+      tech: ["Next.js", "React", "LLMs", "Design Systems"],
       challenge:
-        "Real client pressure + tight deadlines. Had to deliver scalable, production-ready code. No room for experiments - had to work perfectly!",
+        "Building a performant AI wrapper that is also accessible and easy to use for non-tech users.",
       broChallenge:
-        "Client breathing down my neck + impossible deadlines = stress level 100. Had to ship bulletproof code that actually works in production. No 'it works on my machine' excuses here!",
-      status: "🚀 Live & Earning",
+        "Making AI simple enough for my grandma to use, but powerful enough to actually teach something. UX challenge level: Expert.",
+      status: "🚀 Live",
+      confidential: false,
+      link: "https://techdivehub.siyaratechin.com",
+    },
+    {
+      title: "Consortium",
+      subtitle: "Influencers ka Bazaar",
+      broSubtitle: "Influencer-led E-commerce",
+      description:
+        "An influencer-based e-commerce platform where creators curate and sell products. Features seamless social integration and payouts.",
+      broDescription:
+        "Shopify for Influencers. Creators pick products, sell to fans, make bank. We handled the crazy traffic spikes when they posted! 💸",
+      tech: ["React", "Node.js", "AWS", "Payments"],
+      challenge:
+        "Managing high concurrency and inventory sync during influencer product drops.",
+      broChallenge:
+        "When an influencer posts, traffic goes 0 to 100 in seconds. keeping the servers alive was the real game.",
+      status: "�️ Live",
+      confidential: false,
+      link: "https://consortium.siyaratechin.com",
+    },
+    {
+      title: "Construction Management System",
+      subtitle: "Hisaab Kitaab",
+      broSubtitle: "Building the Builders",
+      description:
+        "A system for real-time cost and project tracking in construction. Helps manage inventory, labor, and timelines.",
+      broDescription:
+        "Real-time tracking for construction projects. Costs, inventory, labor—tracking every brick and rupee.",
+      tech: ["React", "Spring Boot", "Calculations"],
+      challenge:
+        "Complex data models and real-time updates were key. Needed to be robust for on-site usage.",
+      broChallenge:
+        "Complex math, real-time sync, and an interface that works on a dusty construction site tablet. Rugged coding.",
+      status: "🏗️ In Use",
       confidential: true,
       link: "NA",
     },
     {
-      title: "TechDiveHub Landing Page",
-      subtitle: "Client ka vision, mera execution",
-      broSubtitle: "Client's vision + my execution = conversion machine",
+      title: "AI Marketing Agent",
+      subtitle: "Abhi Bana Raha Hoon",
+      broSubtitle: "Cooking: AI Marketing Genius",
       description:
-        "Professional landing page for tech consulting company built at Siyaratech Innovations. Responsive design, contact forms, service showcases. Client wanted modern, clean look with fast loading.",
+        "Currently architecting an AI-based marketing application to automate content creation, ad targeting, and analytics.",
       broDescription:
-        "Sleek landing page for a tech consulting company. Responsive design, smooth contact forms, service showcases that actually convert. Client wanted that 'modern startup' vibe with lightning-fast loading speeds.",
-      tech: ["Next.js", "Tailwind", "TypeScript", "Contact APIs"],
+        "Building the future right now. AI that runs your marketing campaigns while you sleep. Still in the lab, but it's gonna be huge. 👨‍🍳",
+      tech: ["AI Agents", "LLMs", "Python", "Next.js"],
       challenge:
-        "Client revisions, design iterations, pixel-perfect implementation. Had to match exact mockups while keeping performance smooth.",
+        "Orchestrating multi-agent workflows to handle complex marketing strategies autonomously.",
       broChallenge:
-        "Client changes every day, design iterations from hell, pixel-perfect perfectionism. Had to nail the exact mockups while keeping everything buttery smooth.",
-      status: "🎯 Delivered",
-      link: "https://techdivehub.siyaratechin.com/",
-    },
-    {
-      title: "SiyaraTech Landing Page",
-      subtitle: "Another happy client, another delivery",
-      broSubtitle: "Happy client #2, mission accomplished",
-      description:
-        "Corporate website for tech startup built at Siyaratech Innovations. Multi-section layout, team profiles, service breakdown, mobile-first approach. Built to convert visitors to leads.",
-      broDescription:
-        "Corporate website for a tech startup that actually converts. Multi-section layout, team profiles that don't look like stock photos, service breakdowns that make sense. Mobile-first because that's where the traffic is.",
-      tech: ["Next.js", "Tailwind", "Responsive Design", "SEO"],
-      challenge:
-        "Brand guidelines compliance, cross-browser testing, lighthouse performance optimization. Client wanted 90+ scores everywhere.",
-      broChallenge:
-        "Brand police breathing down my neck, testing across every browser known to humanity, Lighthouse scores better than 90+ or bust. No compromises.",
-      status: "✅ Deployed",
-      link: "https://siyaratechin.com/",
+        "Getting AI agents to collaborate without fighting. It's like herding super-smart digital cats.",
+      status: "🚧 Building",
+      confidential: false,
+      link: "#",
     },
   ]
 
   const personalProjects = [
     {
-      title: "EduTrack - Smart MIS",
-      subtitle: "School system ka experiment",
-      broSubtitle: "My playground for learning full-stack patterns",
-      description:
-        "Personal project for educational institutions. Features student management, attendance tracking, grade calculation, parent communication portal. Built to learn full-stack patterns.",
-      broDescription:
-        "Educational management system I built to level up my skills. Student management, attendance tracking, grade calculations, parent portals—basically everything a school needs. Pure learning playground where I could break things and fix them.",
-      tech: ["Next.js", "Node.js", "PostgreSQL", "AI Integration"],
-      challenge:
-        "This was my learning playground. Tried new patterns, experimented with AI features, built complex state management. No client pressure, pure learning!",
-      broChallenge:
-        "No pressure, just pure experimentation. Tried every new pattern I could think of, threw in some AI features, built complex state management systems. Learning lab where failure was just feedback.",
-      link: "https://github.com/ShubhamGagare/EduTrack",
-    },
-    {
       title: "HandCraftUI",
       subtitle: "Shadcn ka desi version",
       broSubtitle: "Shadcn but make it fun and sketchy",
       description:
-        "Personal UI library experiment with hand-drawn aesthetic. Custom components with sketchy borders, speech bubbles, comic-style elements. Built because regular components looked too boring!",
+        "Personal UI library experiment with hand-drawn aesthetic. Custom components with sketchy borders, speech bubbles, comic-style elements.",
       broDescription:
-        "UI component library with personality. Hand-drawn vibes, sketchy borders, speech bubbles, comic-style elements—because regular components are boring AF. Built it when I got tired of everything looking the same.",
+        "UI component library with personality. Hand-drawn vibes, sketchy borders, speech bubbles. Built because regular components are boring AF.",
       tech: ["React", "TypeScript", "Tailwind", "Storybook"],
       challenge:
-        "How to make professional components look fun yet usable? Spent nights getting the hand-drawn CSS animations right. Pure passion project!",
+        "Creating a unique design language that is still usable as a library.",
       broChallenge:
-        "How do you make components look fun without making them unusable? Spent way too many late nights perfecting hand-drawn CSS animations. Classic passion project that kept me up at night.",
+        "Making components look hand-drawn without SVG bloating. Pure CSS magic.",
       link: "https://www.npmjs.com/package/handcraft-ui",
+    },
+    {
+      title: "Students AI Assistant",
+      subtitle: "Padhai me madad",
+      broSubtitle: "Study buddy 2.0",
+      description:
+        "AI assistant designed to help students with their queries and study material. Leverages LLMs for accurate responses.",
+      broDescription:
+        "An AI chatbot that actually helps you study instead of distracting you. LLM powered, student verified.",
+      tech: ["AI/LLM", "Next.js", "Python"],
+      challenge: "Prompt engineering to ensure responses are educational and not just answers.",
+      broChallenge: "Taming the AI to explain concepts like a teacher, not a robot.",
+      link: "#",
+    },
+    {
+      title: "MarathaMatrimony App",
+      subtitle: "Rishta wahi, soch nayi",
+      broSubtitle: "Matchmaking made modern",
+      description:
+        "A community-focused matrimony app designed for specific cultural needs. Features profile matching, chat, and secure verification.",
+      broDescription:
+        "Bringing modern tech to traditional matchmaking. Secure profiles, chat features, and zero spam.",
+      tech: ["React Native", "Firebase", "Node.js"],
+      challenge: "Building trust through verified profiles and secure data handling.",
+      broChallenge: "Privacy is paramount. Making sure data stays safe while people find love.",
+      link: "#",
     },
   ]
 
   const skills = [
     {
-      category: "Client Delivery Skills",
-      items: ["Production Ready Apps", "Client Communication", "Deadline Management", "Code Reviews"],
+      category: "Technical Stack",
+      items: ["React", "Next.js", "Node.js", "Java", "TypeScript", "PostgreSQL", "SQL"],
       munnaExplanation:
-        "Client ka kaam matlab - deadline pe delivery, bug-free code, aur clear communication. Siyaratech mein 3 successful deliveries ke saath seekha hai ki professionalism and quality dono zaroori hai!",
+        "Frontend ho dhoondna ya backend jodna, sab aata hai bhai. React, Java, SQL - sab set hai.",
       broExplanation:
-        "Client work means shipping on time, bug-free code, and clear communication. Delivered 3 successful projects at Siyaratech—learned that professionalism and quality aren't optional!",
+        "Full stack utility belt. React/Next.js for the shiny stuff, Node/Java for the heavy lifting.",
     },
     {
-      category: "Modern Frontend",
-      items: ["React (Hooks, Context)", "Next.js (SSR, API)", "TypeScript", "Tailwind CSS"],
+      category: "Design & Tools",
+      items: ["Figma", "Sketch", "Wireframing", "Prototyping", "Design Systems"],
       munnaExplanation:
-        "Frontend mein latest patterns use karta hoon. Siyaratech projects mein React 18, Next.js 14, TypeScript strict mode - sab modern stack pe deliver kiya hai!",
+        "Design bhi khud karta hoon. Figma me wireframe bana ke client ko khush kar deta hoon.",
       broExplanation:
-        "I use the latest frontend patterns that actually matter. Delivered Siyaratech projects with React 18, Next.js 14, TypeScript strict mode—modern stack that performs!",
+        "I don't just code, I design. Figma ninja. From wireframe to prototype, I own the pixel.",
     },
     {
-      category: "Backend Strength",
-      items: ["Spring Boot (Production)", "Node.js (APIs)", "Database Design", "Payment Integration", "Authentication"],
+      category: "Soft Skills",
+      items: ["Problem Solving", "Debugging", "Team Leadership", "Client Comm"],
       munnaExplanation:
-        "Backend ka matlab - jo user nahi dekhta but kaam karta hai. Real payment gateways integrate kiye, production databases design kiye, server deploy kiya. Sab live and working!",
+        "Badi badi problem solve kar lete hain. Team ko bhi sambhal lete hain.",
       broExplanation:
-        "Backend = the stuff users don't see but absolutely need to work. I've integrated real payment gateways, designed production databases, deployed servers. All live, all working!",
+        "Bug hunter, team captain, client whisperer. I solve problems before they become problems.",
     },
   ]
 
@@ -266,129 +272,113 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-blue-50">
-      {/* Header */}
-      <header className="border-b-4 border-dashed border-orange-400 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center transform rotate-3">
-              <span className="text-white font-bold text-xl">S</span>
+      {/* Floating Header */}
+      <header className="fixed top-4 left-0 right-0 z-50 px-4">
+        <div className="max-w-6xl mx-auto backdrop-blur-md bg-white/80 border-2 border-dashed border-gray-300 rounded-full shadow-lg px-6 py-3 flex justify-between items-center transition-all duration-300 hover:border-orange-400 hover:shadow-xl">
+          <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <div className="w-10 h-10 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center transform group-hover:rotate-12 transition-transform duration-300 border-2 border-white shadow-sm">
+              <span className="text-white font-comic font-bold text-2xl mt-1">S</span>
             </div>
-            <div>
-              <h1 className="font-bold text-xl text-gray-800">Shubham Gagare</h1>
-              <p className="text-sm text-gray-600">Full Stack Developer & Product Shipper</p>
+            <div className="hidden sm:block">
+              <h1 className="font-comic font-bold text-2xl text-gray-800 leading-none group-hover:text-orange-600 transition-colors">Shubham Gagare</h1>
+              <p className="text-xs text-gray-500 font-hand">Product Designer & Dev</p>
             </div>
           </div>
 
-          <div className="flex items-center space-x-2">
-            <Button variant={mode === "bro" ? "default" : "outline"} onClick={() => setMode("bro")} className="text-sm">
-              Bro Mode
-            </Button>
-            <Button
-              variant={mode === "munna" ? "default" : "outline"}
-              onClick={() => setMode("munna")}
-              className="text-sm"
-            >
-              Munna Mode
-            </Button>
-            <Button
-              variant={mode === "professional" ? "default" : "outline"}
-              onClick={() => setMode("professional")}
-              className="text-sm"
-            >
-              Professional Mode
-            </Button>
+          <div className="flex items-center bg-gray-100/50 rounded-full p-1 border border-gray-200">
+            {["bro", "munna", "professional"].map((m) => (
+              <button
+                key={m}
+                onClick={() => setMode(m as any)}
+                className={`px-4 py-1.5 rounded-full text-sm font-hand transition-all duration-300 ${mode === m
+                  ? "bg-white text-orange-600 shadow-md transform scale-105 border border-orange-100 font-bold"
+                  : "text-gray-500 hover:text-gray-700 hover:bg-gray-200/50"
+                  }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="relative">
-            <div className="absolute -top-6 -left-6 w-24 h-24 bg-yellow-200 rounded-full opacity-50 animate-pulse"></div>
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-200 rounded-full opacity-30 animate-pulse delay-1000"></div>
+      <section className="container mx-auto px-4 pt-32 pb-20 relative overflow-hidden">
+        {/* Decorative Floating Elements */}
+        <div className="absolute top-20 left-10 w-16 h-16 bg-yellow-400/20 rounded-full blur-xl animate-float delay-100"></div>
+        <div className="absolute top-40 right-20 w-24 h-24 bg-blue-400/20 rounded-full blur-xl animate-float delay-500"></div>
+        <div className="absolute top-1/2 left-1/4 w-8 h-8 text-orange-300 animate-bounce delay-700 opacity-50"><Code2 /></div>
+        <div className="absolute bottom-20 right-1/4 w-8 h-8 text-blue-300 animate-bounce delay-1000 opacity-50"><Zap /></div>
 
-            <div className="relative bg-white p-8 rounded-3xl shadow-2xl border-4 border-dashed border-orange-300 transform -rotate-1">
-              <div className="transform rotate-1">
-                {/* Profile Picture */}
-                <div className="flex justify-center mb-6">
-                  <div className="relative">
-                    <img
-                      src={getProfilePicture() || "/placeholder.svg"}
-                      alt="Shubham Gagare Profile"
-                      className="w-32 h-32 rounded-full border-4  bg-yellow-100 border-dashed border-orange-400 object-cover transform hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-2 border-white flex items-center justify-center">
-                      <span className="text-white text-xs">✓</span>
-                    </div>
-                  </div>
+        <div className="max-w-4xl mx-auto text-center relative z-10">
+          <div className="relative inline-block group">
+            <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
+            <div className="relative">
+              <img
+                src={getProfilePicture() || "/placeholder.svg"}
+                alt="Shubham Gagare Profile"
+                className="w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-white shadow-xl object-cover transform transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 mx-auto"
+              />
+              <div className="absolute -bottom-2 -right-2 bg-green-500 text-white p-2 rounded-full border-4 border-white shadow-lg animate-bounce">
+                <Rocket className="w-5 h-5" />
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 space-y-6">
+            {mode === "munna" ? (
+              <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
+                <h2 className="text-5xl md:text-7xl font-comic font-bold text-gray-800 mb-2">Namaste! Main <span className="text-orange-500">Shubham</span></h2>
+                <div className="speech-bubble mx-auto max-w-2xl transform rotate-1 hover:rotate-0 transition-transform duration-300 shadow-lg">
+                  <p className="text-xl md:text-2xl text-gray-700 font-hand leading-relaxed">
+                    "Bhai, main software engineer hoon. <span className="font-bold text-orange-600">7+ saal</span> se code likhta hoon.
+                    <span className="inline-block mx-1 transform -rotate-1 bg-yellow-200 px-1">3 products</span> deliver kiye hain at Siyaratech.
+                    AI mera assistant hai, replacement nahi!"
+                  </p>
                 </div>
-
-                {mode === "munna" ? (
-                  <>
-                    <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">Namaste! Main Shubham</h2>
-                    <div className="bg-orange-100 p-6 rounded-2xl border-3 border-orange-300 mb-6">
-                      <p className="text-xl text-gray-700 leading-relaxed">
-                        <span className="text-2xl">"</span>
-                        Bhai, main software engineer hoon. 6+ saal se code likhta hoon.3 products successfully
-                        deliver kiye hain at Siyaratech Innovations, 2 personal products banaye hain. AI ka help leta
-                        hoon smartly.Jo kaam kiya hai, sab yahan dikhaya hai.
-                        <span className="text-2xl">"</span>
-                      </p>
-                      <p className="text-sm text-gray-500 mt-3 italic">
-                        Translation: I'm a software engineer with 6+ years experience, recently delivered 3 products
-                        successfully at Siyaratech, built many personal projects, use AI smartly, and this portfolio is my
-                        work showcase.
-                      </p>
-                    </div>
-                  </>
-                ) : mode === "bro" ? (
-                  <>
-                    <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">Hey! I'm Shubham 👋</h2>
-                    <div className="bg-blue-100 p-6 rounded-2xl border-3 border-blue-300 mb-6">
-                      <p className="text-xl text-gray-700 leading-relaxed">
-                        <span className="text-2xl">"</span>
-                        Full-stack dev with 6+ years of turning coffee into code ☕. Recently successfully shipped 3
-                        products at Siyaratech Innovations, built many personal projects for fun. I use AI like a smart
-                        assistant (not a crutch). Let's skip the small talk and see what I've built! 🚀<span className="text-2xl">"</span>
-                      </p>
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">Hello, I'm Shubham</h2>
-                    <div className="bg-blue-100 p-6 rounded-2xl border-3 border-blue-300 mb-6">
-                      <p className="text-xl text-gray-700 leading-relaxed">
-                        Full-stack developer with 6+ years of experience.Recently I've successfully delivered 3  products
-                        at Siyaratech Innovations and built many personal projects using modern tech stacks. I leverage AI
-                        tools efficiently and believe in shipping quality solutions.
-                      </p>
-                    </div>
-                  </>
-                )}
-
-                <div className="flex flex-wrap justify-center gap-4">
-                  <Button
-                    onClick={scrollToRecentWork}
-                    className="bg-orange-500 hover:bg-orange-600 text-white transform hover:scale-105 transition-all duration-200"
-                  >
-                    <Rocket className="w-4 h-4 mr-2" />
-                    {mode === "munna"
-                      ? "Delivered Projects Dekho"
-                      : mode === "bro"
-                        ? "Check Out My Work"
-                        : "Check Out My Work"}
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="border-2 border-blue-400 text-blue-600 hover:bg-blue-50 transform hover:scale-105 transition-all duration-200"
-                    onClick={scrollToContact}
-                  >
-                    <Mail className="w-4 h-4 mr-2" />
-                    {mode === "munna" ? "Baat Karte Hain" : mode === "bro" ? "Let's Chat" : "Let's Connect"}
-                  </Button>
+                <p className="text-sm text-gray-400 mt-4 italic font-sans max-w-lg mx-auto">
+                  (Translation: I'm a software engineer with 7+ years exp. Delivered 3 products at Siyaratech. AI is my assistant, not replacement!)
+                </p>
+              </div>
+            ) : mode === "bro" ? (
+              <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
+                <h2 className="text-5xl md:text-7xl font-comic font-bold text-gray-800 mb-2">Yo! I'm <span className="text-blue-500">Shubham</span> 👋</h2>
+                <div className="speech-bubble mx-auto max-w-2xl transform -rotate-1 hover:rotate-0 transition-transform duration-300 shadow-lg border-blue-400">
+                  <p className="text-xl md:text-2xl text-gray-700 font-hand leading-relaxed">
+                    "Full-stack dev turning ☕ into code for <span className="font-bold text-blue-600">7+ years</span>.
+                    Shipped <span className="inline-block mx-1 transform rotate-2 bg-blue-100 px-1">3 real products</span> at Siyaratech.
+                    Let's skip the corporate jargon and build something cool!"
+                  </p>
                 </div>
               </div>
+            ) : (
+              <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
+                <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4 tracking-tight">Shubham Gagare</h2>
+                <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                  Senior Full-Stack Engineer with <span className="font-semibold text-gray-900">7+ years</span> of experience.
+                  Specializing in 0→1 product delivery, AI integration, and scalable architecture.
+                </p>
+              </div>
+            )}
+
+            <div className="flex flex-wrap justify-center gap-4 pt-4">
+              <Button
+                onClick={scrollToRecentWork}
+                className={`h-12 px-8 text-lg font-hand rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg ${mode === 'munna' ? 'bg-orange-500 hover:bg-orange-600' :
+                  mode === 'bro' ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-900 hover:bg-gray-800'
+                  }`}
+              >
+                <Rocket className="w-5 h-5 mr-2" />
+                {mode === "munna" ? "Kaam Dekho" : mode === "bro" ? "Check My Work" : "View Portfolio"}
+              </Button>
+              <Button
+                variant="outline"
+                className="h-12 px-8 text-lg font-hand rounded-full border-2 transform hover:scale-105 transition-all duration-300 hover:bg-gray-50 bg-white shadow-sm"
+                onClick={scrollToContact}
+              >
+                <Mail className="w-5 h-5 mr-2" />
+                {mode === "munna" ? "Baat Karein" : mode === "bro" ? "Let's Chat" : "Contact Me"}
+              </Button>
             </div>
           </div>
         </div>
@@ -408,10 +398,10 @@ const Index = () => {
             </h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               {mode === "munna"
-                ? "6+ saal ka safar - har company mein kuch naya seekha, kuch naya banaya!"
+                ? "7+ saal ka safar - har company mein kuch naya seekha, kuch naya banaya!"
                 : mode === "bro"
-                  ? "6+ years of professional growth - learned something new and built something cool at every stop 🎢"
-                  : "6+ years of professional growth across product design and full-stack development."}
+                  ? "7+ years of professional growth - learned something new and built something cool at every stop 🎢"
+                  : "7+ years of professional growth across product design and full-stack development."}
             </p>
           </div>
 
@@ -419,19 +409,20 @@ const Index = () => {
             {workExperience.map((job, index) => (
               <Card
                 key={index}
-                className="border-4 border-dashed border-indigo-300 hover:border-indigo-500 transition-all duration-300 transform hover:scale-102"
+                className={`border-sketch transition-all duration-300 transform hover:scale-[1.02] hover:-rotate-1 shadow-lg bg-white/80 backdrop-blur-sm ${mode === 'bro' ? 'border-blue-400 hover:border-blue-600' : 'border-indigo-400 hover:border-indigo-600'
+                  }`}
               >
                 <CardContent className="p-8">
                   <div className="flex flex-col gap-6">
                     <div className="flex flex-col md:flex-row md:items-start md:justify-between">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                         <div>
-                          <h4 className="text-2xl font-bold text-gray-800 mb-1">{job.company}</h4>
+                          <h4 className="text-3xl font-comic font-bold text-gray-800 mb-1">{job.company}</h4>
                           <div className="flex items-center gap-3 mb-2">
-                            <Badge className="bg-indigo-100 text-indigo-800 border border-indigo-300">{job.role}</Badge>
-                            <div className="flex items-center text-gray-600">
+                            <Badge className={`text-base px-3 py-1 ${mode === 'bro' ? 'bg-blue-100 text-blue-800' : 'bg-indigo-100 text-indigo-800'}`}>{job.role}</Badge>
+                            <div className="flex items-center text-gray-600 font-hand text-lg">
                               <Calendar className="w-4 h-4 mr-1" />
-                              <span className="text-sm">{job.period}</span>
+                              <span className="text-base">{job.period}</span>
                             </div>
                           </div>
 
@@ -443,7 +434,7 @@ const Index = () => {
                           <Button
                             variant="outline"
                             size="sm"
-                            className="border-2 border-green-400 text-green-600"
+                            className="btn-sketch border-2 border-green-400 text-green-600 font-hand text-lg"
                             onClick={() => navigate(job.link || "/")}
                           >
                             <ExternalLink className="w-4 h-4 mr-2" />
@@ -454,9 +445,9 @@ const Index = () => {
                     </div>
                     {(mode === "munna" || mode === "bro") && (
                       <div
-                        className={`p-4 rounded-lg border-2 border-dashed ${mode === "munna" ? "bg-indigo-50 border-indigo-300" : "bg-blue-50 border-blue-300"}`}
+                        className={`p-4 rounded-lg border-2 border-dashed transform rotate-1 ${mode === "munna" ? "bg-indigo-50 border-indigo-300" : "bg-blue-50 border-blue-300"}`}
                       >
-                        <p className={`font-semibold italic ${mode === "munna" ? "text-indigo-700" : "text-blue-700"}`}>
+                        <p className={`font-hand text-xl font-semibold italic ${mode === "munna" ? "text-indigo-700" : "text-blue-700"}`}>
                           "{mode === "munna" ? job.munnaQuote : job.broQuote}"
                         </p>
                       </div>
@@ -469,9 +460,9 @@ const Index = () => {
                           ? job.broHighlights
                           : job.professionalHighlights
                       ).map((highlight, i) => (
-                        <div key={i} className="flex items-start gap-3">
-                          <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <p className="text-gray-700 leading-relaxed">{highlight}</p>
+                        <div key={i} className="flex items-start gap-3 group">
+                          <div className={`w-2 h-2 rounded-full mt-2 flex-shrink-0 transition-all duration-300 group-hover:scale-150 ${mode === 'bro' ? 'bg-blue-500' : 'bg-indigo-500'}`}></div>
+                          <p className="text-gray-700 leading-relaxed font-sans text-lg">{highlight}</p>
                         </div>
                       ))}
                     </div>
@@ -509,17 +500,18 @@ const Index = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="bg-white/50 py-16">
+      <section className="bg-white/50 py-16 relative">
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            <h3 className="text-4xl md:text-5xl font-comic font-bold text-gray-800 mb-4 transform -rotate-1">
               {mode === "munna"
                 ? "Gyaan Ki Dukaan"
                 : mode === "bro"
                   ? "Skills That Actually Matter"
                   : "Technical Expertise"}
             </h3>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-hand">
               {mode === "munna"
                 ? "Jo kuch seekha hai aur client work mein use kiya hai, honest way mein bata raha hoon!"
                 : mode === "bro"
@@ -530,37 +522,46 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {skills.map((skillGroup, index) => (
-              <Card
+              <div
                 key={index}
-                className="border-4 border-dashed border-gray-300 hover:border-orange-400 transition-all duration-300 transform hover:scale-105 hover:-rotate-1"
+                className={`relative group ${index % 2 === 0 ? "rotate-1" : "-rotate-1"
+                  } hover:rotate-0 transition-transform duration-300`}
               >
-                <CardContent className="p-6">
-                  <h4 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-                    <Zap className="w-5 h-5 mr-2 text-orange-500" />
-                    {skillGroup.category}
-                  </h4>
+                <div className={`absolute inset-0 bg-gray-200 transform translate-y-2 translate-x-2 rounded-xl border-2 border-gray-400`}></div>
+                <Card
+                  className={`relative border-2 border-black h-full transform transition-transform duration-300 ${index === 0 ? "bg-orange-50" : index === 1 ? "bg-blue-50" : "bg-green-50"
+                    }`}
+                  style={{ borderRadius: "255px 15px 225px 15px/15px 225px 15px 255px" }}
+                >
+                  <CardContent className="p-6">
+                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-yellow-200/50 rotate-1 shadow-sm"></div>
+                    <h4 className="text-2xl font-comic font-bold text-gray-800 mb-6 flex items-center justify-center border-b-2 border-dashed border-gray-300 pb-2">
+                      <Zap className={`w-5 h-5 mr-2 ${index === 0 ? "text-orange-500" : index === 1 ? "text-blue-500" : "text-green-500"
+                        }`} />
+                      {skillGroup.category}
+                    </h4>
 
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {skillGroup.items.map((skill, i) => (
-                      <Badge
-                        key={i}
-                        variant="secondary"
-                        className="bg-orange-100 text-orange-800 border border-orange-300"
-                      >
-                        {skill}
-                      </Badge>
-                    ))}
-                  </div>
-
-                  {mode !== "professional" && (
-                    <div className="bg-yellow-50 p-4 rounded-lg border-2 border-dashed border-yellow-300">
-                      <p className="text-sm text-gray-700 italic">
-                        "{mode === "munna" ? skillGroup.munnaExplanation : skillGroup.broExplanation}"
-                      </p>
+                    <div className="flex flex-wrap gap-2 mb-6 justify-center">
+                      {skillGroup.items.map((skill, i) => (
+                        <span
+                          key={i}
+                          className="px-3 py-1 bg-white border border-gray-300 rounded-full text-sm font-hand font-bold shadow-sm transform hover:scale-110 transition-transform cursor-default"
+                        >
+                          {skill}
+                        </span>
+                      ))}
                     </div>
-                  )}
-                </CardContent>
-              </Card>
+
+                    {mode !== "professional" && (
+                      <div className="bg-white/60 p-4 rounded-lg border border-dashed border-gray-400">
+                        <p className="text-lg text-gray-700 font-hand leading-tight">
+                          "{mode === "munna" ? skillGroup.munnaExplanation : skillGroup.broExplanation}"
+                        </p>
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+              </div>
             ))}
           </div>
         </div>
@@ -591,45 +592,46 @@ const Index = () => {
             {deliveredProjects.map((project, index) => (
               <Card
                 key={index}
-                className="border-4 border-dashed border-green-300 hover:border-green-500 transition-all duration-300 transform hover:scale-102"
+                className="border-sketch border-green-400 hover:border-green-600 transition-all duration-300 transform hover:scale-[1.02] hover:rotate-1 shadow-lg bg-white/90"
               >
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <h4 className="text-2xl font-bold text-gray-800">{project.title}</h4>
-                        <Badge className="bg-green-100 text-green-800 border border-green-300">{project.status}</Badge>
+                        <h4 className="text-3xl font-comic font-bold text-gray-800">{project.title}</h4>
+                        <Badge className="bg-green-100 text-green-800 border border-green-300 font-hand text-lg transform -rotate-2">{project.status}</Badge>
                       </div>
                       {mode !== "professional" && (
-                        <p className="text-green-600 font-semibold mb-3">
+                        <p className="text-green-600 font-semibold mb-3 font-hand text-xl">
                           {mode === "munna" ? project.subtitle : project.broSubtitle}
                         </p>
                       )}
-                      <p className="text-gray-700 mb-4 leading-relaxed">
+                      <p className="text-gray-700 mb-4 leading-relaxed font-sans text-lg">
                         {mode === "bro" ? project.broDescription : project.description}
                       </p>
 
                       <div className="flex flex-wrap gap-2 mb-4">
                         {project.tech.map((tech, i) => (
-                          <Badge key={i} className="bg-green-100 text-green-800 border border-green-300">
+                          <Badge key={i} className="bg-green-50 text-green-700 border border-green-200 hover:bg-green-100 transition-colors">
                             {tech}
                           </Badge>
                         ))}
                       </div>
 
                       {mode !== "professional" && (
-                        <div className="bg-green-50 p-4 rounded-lg border-2 border-dashed border-green-300">
-                          <p className="text-sm text-gray-700">
-                            <strong>{mode === "munna" ? "Real Challenge:" : "The Real Challenge:"}</strong>{" "}
+                        <div className="bg-green-50 p-4 rounded-lg border-2 border-dashed border-green-300 transform -rotate-1 hover:rotate-0 transition-transform">
+                          <p className="text-base text-gray-700">
+                            <strong>{mode === "munna" ? "Asli Challenge:" : "The Real Challenge:"}</strong>{" "}
                             {mode === "bro" ? project.broChallenge : project.challenge}
                           </p>
                         </div>
                       )}
 
                       {project.confidential && (
-                        <div className="mt-4 bg-yellow-50 p-3 rounded-lg border-2 border-dashed border-yellow-300">
-                          <p className="text-sm text-yellow-800">
-                            <strong>Note:</strong> Live link cannot be shared due to confidentiality agreements.
+                        <div className="mt-4 bg-yellow-50 p-3 rounded-lg border-2 border-dashed border-yellow-300 flex items-center gap-2">
+                          <div className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse"></div>
+                          <p className="text-sm text-yellow-800 font-medium">
+                            Confidential Project (NDA Signed) 🤫
                           </p>
                         </div>
                       )}
@@ -640,7 +642,7 @@ const Index = () => {
                         <Button
                           variant="outline"
                           size="sm"
-                          className="border-2 border-green-400 text-green-600"
+                          className="btn-sketch border-2 border-green-400 text-green-600 font-hand text-lg"
                           onClick={() => window.open(project.link, "_blank")}
                         >
                           <ExternalLink className="w-4 h-4 mr-2" />
@@ -681,38 +683,38 @@ const Index = () => {
             {personalProjects.map((project, index) => (
               <Card
                 key={index}
-                className="border-4 border-dashed border-purple-300 hover:border-purple-500 transition-all duration-300 transform hover:scale-102"
+                className="border-sketch border-purple-400 hover:border-purple-600 transition-all duration-300 transform hover:scale-[1.02] hover:-rotate-1 shadow-lg bg-white/90"
               >
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <h4 className="text-2xl font-bold text-gray-800">{project.title}</h4>
-                        <Badge className="bg-purple-100 text-purple-800 border border-purple-300">
+                        <h4 className="text-3xl font-comic font-bold text-gray-800">{project.title}</h4>
+                        <Badge className="bg-purple-100 text-purple-800 border border-purple-300 font-hand text-lg transform rotate-2">
                           {mode === "bro" ? "🧪 Experiment" : "💡 Learning"}
                         </Badge>
                       </div>
                       {mode !== "professional" && (
-                        <p className="text-purple-600 font-semibold mb-3">
+                        <p className="text-purple-600 font-semibold mb-3 font-hand text-xl">
                           {mode === "munna" ? project.subtitle : project.broSubtitle}
                         </p>
                       )}
-                      <p className="text-gray-700 mb-4 leading-relaxed">
+                      <p className="text-gray-700 mb-4 leading-relaxed font-sans text-lg">
                         {mode === "bro" ? project.broDescription : project.description}
                       </p>
 
                       <div className="flex flex-wrap gap-2 mb-4">
                         {project.tech.map((tech, i) => (
-                          <Badge key={i} className="bg-purple-100 text-purple-800 border border-purple-300">
+                          <Badge key={i} className="bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100">
                             {tech}
                           </Badge>
                         ))}
                       </div>
 
                       {mode !== "professional" && (
-                        <div className="bg-purple-50 p-4 rounded-lg border-2 border-dashed border-purple-300">
-                          <p className="text-sm text-gray-700">
-                            <strong>{mode === "munna" ? "Learning Experience:" : "What I Learned:"}</strong>{" "}
+                        <div className="bg-purple-50 p-4 rounded-lg border-2 border-dashed border-purple-300 transform rotate-1 hover:rotate-0 transition-transform">
+                          <p className="text-base text-gray-700">
+                            <strong>{mode === "munna" ? "Kya Seekha:" : "What I Learned:"}</strong>{" "}
                             {mode === "bro" ? project.broChallenge : project.challenge}
                           </p>
                         </div>
@@ -723,7 +725,7 @@ const Index = () => {
                       <Button
                         variant="outline"
                         size="sm"
-                        className="border-2 border-purple-400 text-purple-600"
+                        className="btn-sketch border-2 border-purple-400 text-purple-600 font-hand text-lg"
                         onClick={() => window.open(project.link, "_blank")}
                       >
                         <Github className="w-4 h-4 mr-2" />
@@ -738,73 +740,149 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Education & Awards - NEW SECTION */}
+      <section className="py-20 bg-gradient-to-l from-yellow-50/50 to-orange-50/50 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-10 left-10 text-9xl opacity-5 transform -rotate-12 pointer-events-none">🎓</div>
+        <div className="absolute bottom-10 right-10 text-9xl opacity-5 transform rotate-12 pointer-events-none">🏆</div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-16">
+            <h3 className="text-4xl md:text-5xl font-comic font-bold text-gray-800 mb-4 text-shadow-sm">
+              {mode === "munna" ? "Padhai & Inaam" : "Education & Awards"}
+            </h3>
+          </div>
+          <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+            {/* Education */}
+            <div className="relative group">
+              <div className="absolute inset-0 bg-yellow-200 transform rotate-1 rounded-xl translate-y-2 translate-x-2"></div>
+              <Card className="border-sketch border-yellow-500 bg-white relative transform group-hover:-translate-y-1 transition-transform duration-300">
+                <CardContent className="p-8">
+                  <h4 className="text-3xl font-comic font-bold text-gray-800 mb-6 flex items-center border-b-2 border-yellow-200 pb-2">
+                    <span className="mr-3 text-4xl">🎓</span> Education
+                  </h4>
+                  <div className="space-y-6">
+                    <div className="group/item">
+                      <h5 className="font-bold text-xl text-gray-800 group-hover/item:text-yellow-600 transition-colors">CDAC ACTS, Pune</h5>
+                      <p className="text-gray-600 font-hand text-lg">Post Graduation Diploma in Advanced Computing</p>
+                      <p className="text-sm text-gray-400 font-sans">Aug 2018 - Feb 2019</p>
+                    </div>
+                    <div className="group/item">
+                      <h5 className="font-bold text-xl text-gray-800 group-hover/item:text-yellow-600 transition-colors">Pune University</h5>
+                      <p className="text-gray-600 font-hand text-lg">Bachelor of Engineering in Computer Engineering</p>
+                      <p className="text-sm text-gray-400 font-sans">June 2015 - June 2018</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Awards */}
+            <div className="relative group">
+              <div className="absolute inset-0 bg-orange-200 transform -rotate-1 rounded-xl translate-y-2 translate-x-2"></div>
+              <Card className="border-sketch border-orange-500 bg-white relative transform group-hover:-translate-y-1 transition-transform duration-300">
+                <CardContent className="p-8">
+                  <h4 className="text-3xl font-comic font-bold text-gray-800 mb-6 flex items-center border-b-2 border-orange-200 pb-2">
+                    <span className="mr-3 text-4xl">🏆</span> Awards
+                  </h4>
+                  <div className="space-y-6">
+                    <div className="flex items-start group/item">
+                      <span className="text-yellow-500 mr-3 text-2xl transform group-hover/item:scale-125 transition-transform">★</span>
+                      <div>
+                        <h5 className="font-bold text-xl text-gray-800">Best Team Award, ParentPay (2023)</h5>
+                        <p className="text-gray-600 font-hand text-lg">For Take Register module delivery</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start group/item">
+                      <span className="text-yellow-500 mr-3 text-2xl transform group-hover/item:scale-125 transition-transform">★</span>
+                      <div>
+                        <h5 className="font-bold text-xl text-gray-800">Best Team Award, Goldman Sachs (2020)</h5>
+                        <p className="text-gray-600 font-hand text-lg">For Product Implementations at Volante</p>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Honesty Section */}
-      <section className="bg-gradient-to-r from-orange-100 to-yellow-100 py-16">
+      <section className="bg-gradient-to-r from-orange-100/50 to-yellow-100/50 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+            <h3 className="text-4xl md:text-5xl font-comic font-bold text-gray-800 mb-8">
               {mode === "munna" ? "Sach Bolta Hoon" : mode === "bro" ? "Keeping It 100% Real" : "Complete Transparency"}
             </h3>
 
-            <Card className="border-4 border-dashed border-orange-400 bg-white transform -rotate-1">
-              <CardContent className="p-8 transform rotate-1">
-                <div className="space-y-6 text-left">
+            <Card className="border-sketch border-orange-400 bg-white transform -rotate-1 hover:rotate-0 transition-transform duration-500 shadow-xl relative overflow-hidden">
+              {/* Paper texture feel */}
+              <div className="absolute inset-0 bg-yellow-50/20 pointer-events-none"></div>
+
+              <CardContent className="p-8 md:p-12 relative z-10">
+                <div className="space-y-8 text-left">
                   {mode === "munna" ? (
                     <>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>3 Client Projects Successfully Delivered at Siyaratech Innovations.</strong> Real
-                        deadlines, real pressure, real money involved. TechDiveHub, SiyaraTech, aur Influencer Commerce
-                        - sab live hain aur kaam kar rahe hain.
-                      </p>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>AI use karta hoon? Bilkul!</strong> But copy-paste nahi. Code samajhta hoon, test karta
-                        hoon, client requirements ke hisaab se customize karta hoon. AI mere liye assistant hai,
-                        replacement nahi.
-                      </p>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Personal projects vs Client work.</strong> EduTrack aur HandCraftUI experiment hain -
-                        learning ke liye. Client work professional hai - delivery guarantee ke saath at Siyaratech.
-                      </p>
-                      <div className="text-sm text-gray-500 italic mt-6 p-4 bg-gray-50 rounded-lg">
-                        <p>
-                          <strong>Translation:</strong> Recently I've successfully delivered3 products at Siyaratech
-                          Innovations with real deadlines and business impact. I use AI as an assistant, not
-                          replacement, and I'm transparent about what's client work vs personal experiments.
+                      <div className="flex items-start gap-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center text-2xl flex-shrink-0">📜</div>
+                        <div>
+                          <p className="text-xl font-bold text-gray-800 mb-2">3 Client Projects Successfully Delivered</p>
+                          <p className="text-lg text-gray-600 font-hand leading-relaxed">
+                            Real deadlines, real pressure, real money involved. TechDiveHub, SiyaraTech, aur Influencer Commerce - sab live hain aur kaam kar rahe hain.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-2xl flex-shrink-0">🤖</div>
+                        <div>
+                          <p className="text-xl font-bold text-gray-800 mb-2">AI use karta hoon? Bilkul!</p>
+                          <p className="text-lg text-gray-600 font-hand leading-relaxed">
+                            But copy-paste nahi. Code samajhta hoon, test karta hoon, client requirements ke hisaab se customize karta hoon. AI mere liye assistant hai, replacement nahi.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="bg-gray-50 p-4 rounded-lg border-2 border-dashed border-gray-300 mt-6">
+                        <p className="text-base text-gray-500 italic">
+                          <strong>Translation:</strong> I've successfully delivered 3 products with real deadlines. I use AI as a smart assistant, not a replacement. I understand every line of code I ship.
                         </p>
                       </div>
                     </>
                   ) : mode === "bro" ? (
                     <>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Real Talk:3 products Delivered at Siyaratech Innovations.</strong> These weren't
-                        side projects or tutorials—real deadlines, real pressure, real business outcomes. TechDiveHub,
-                        SiyaraTech, and Influencer Commerce are all live and doing their thing! 🎯
-                      </p>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Do I use AI? Absolutely!</strong> But I'm not copy-pasting blindly. I understand the
-                        code, test everything, and customize it for client needs. AI is my assistant, not my
-                        replacement—big difference! 🤖
-                      </p>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Client work vs Personal experiments.</strong> EduTrack and HandCraftUI are my learning
-                        playground—no pressure, just experimentation. Client work is where I deliver with guarantees and
-                        professionalism at Siyaratech. Know the difference! 💼
-                      </p>
+                      <div className="flex items-start gap-4">
+                        <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center text-2xl flex-shrink-0">💼</div>
+                        <div>
+                          <p className="text-xl font-bold text-gray-800 mb-2">Real Talk: 3 Products Delivered</p>
+                          <p className="text-lg text-gray-600 font-hand leading-relaxed">
+                            These weren't side projects or tutorials—real deadlines, real pressure, real business outcomes. TechDiveHub, SiyaraTech, and Influencer Commerce are all live and doing their thing! 🎯
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-4">
+                        <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-2xl flex-shrink-0">🧠</div>
+                        <div>
+                          <p className="text-xl font-bold text-gray-800 mb-2">Do I use AI? Absolutely!</p>
+                          <p className="text-lg text-gray-600 font-hand leading-relaxed">
+                            But I'm not copy-pasting blindly. I understand the code, test everything, and customize it for client needs. AI is my assistant, not my replacement—big difference! 🤖
+                          </p>
+                        </div>
+                      </div>
                     </>
                   ) : (
                     <>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Proven Client Delivery Record:</strong> Successfully delivered 3 production applications
-                        for real clients at Siyaratech Innovations with measurable business outcomes.
-                      </p>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Transparent AI Usage:</strong> I leverage AI tools for faster development and code
-                        scaffolding, but every line is reviewed, tested, and customized for specific requirements.
-                      </p>
-                      <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>Clear Project Classification:</strong> I distinguish between client deliverables
-                        (production-ready) and personal learning projects (experimental).
-                      </p>
+                      <div className="space-y-6">
+                        <div>
+                          <h4 className="font-bold text-xl mb-2 text-gray-800">Proven Client Delivery Record</h4>
+                          <p className="text-gray-600 text-lg">Successfully delivered 3 production applications for real clients at Siyaratech Innovations with measurable business outcomes.</p>
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-xl mb-2 text-gray-800">Transparent AI Usage</h4>
+                          <p className="text-gray-600 text-lg">I leverage AI tools for faster development and code scaffolding, but every line is reviewed, tested, and customized for specific requirements.</p>
+                        </div>
+                      </div>
                     </>
                   )}
                 </div>
@@ -815,18 +893,19 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact-section" className=" py-16 bg-white">
+      <section id="contact-section" className="py-20 bg-white relative">
+        <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-yellow-50/50 to-transparent pointer-events-none"></div>
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+          <h3 className="text-4xl md:text-6xl font-comic font-bold text-gray-800 mb-8 animate-in slide-in-from-bottom-5">
             {mode === "munna"
-              ? "Client Chahiye Ya Developer?"
+              ? "Chalo, Kuch Solid Banate Hain!"
               : mode === "bro"
                 ? "Ready to Build Something Cool?"
                 : "Ready for Your Next Project"}
           </h3>
 
           <div className="max-w-2xl mx-auto">
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-xl text-gray-600 mb-10 font-hand">
               {mode === "munna"
                 ? "Agar delivery guarantee chahiye aur working products dekhne hain, to baat karte hain!"
                 : mode === "bro"
@@ -834,40 +913,43 @@ const Index = () => {
                   : "If you need proven delivery capabilities and want to see live client work, let's connect!"}
             </p>
 
-            <div className="flex flex-wrap justify-center gap-4">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white transform hover:scale-105 transition-all duration-200" onClick={() => { window.location.href = "mailto:shubhamgagare1997@gmail.com"; }}>
-                <Mail className="w-4 h-4 mr-2" />
+            <div className="flex flex-wrap justify-center gap-6">
+              <Button
+                onClick={() => { window.location.href = "mailto:shubhamgagare1997@gmail.com"; }}
+                className="h-14 px-8 text-xl rounded-full bg-blue-600 hover:bg-blue-700 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 font-bold"
+              >
+                <Mail className="w-5 h-5 mr-2" />
                 Email Me
               </Button>
               <Button
                 variant="outline"
-                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 transform hover:scale-105 transition-all duration-200"
+                className="h-14 px-8 text-xl rounded-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 font-bold"
                 onClick={() => { window.open("https://www.linkedin.com/in/shubham-gagare-543a05160/", "_blank"); }}
               >
-                <Linkedin className="w-4 h-4 mr-2" />
+                <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </Button>
               <Button
                 variant="outline"
-                className="border-2 border-gray-600 text-gray-600 hover:bg-gray-50 transform hover:scale-105 transition-all duration-200"
+                className="h-14 px-8 text-xl rounded-full border-2 border-gray-800 text-gray-800 hover:bg-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 font-bold"
                 onClick={() => { window.open("https://github.com/ShubhamGagare", "_blank"); }}
 
               >
-                <Github className="w-4 h-4 mr-2" />
+                <Github className="w-5 h-5 mr-2" />
                 GitHub
               </Button>
             </div>
 
-            <div className="mt-8 p-6 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300">
-              <p className="text-sm text-gray-600">
+            <div className="mt-12 p-8 bg-gray-50 rounded-2xl border-2 border-dashed border-gray-300 transform rotate-1 hover:rotate-0 transition-transform duration-300 mx-auto max-w-lg">
+              <p className="text-base text-gray-600 font-hand text-lg mb-4">
                 {mode === "munna"
                   ? "PDF resume bhi hai, but yeh site hi asli story hai - delivered products ke saath! 😊"
                   : mode === "bro"
                     ? "Traditional resume available too, but this portfolio tells the real story with actual examples! 😊"
                     : "Traditional resume available, but this portfolio tells the complete story with live examples. 😊"}
               </p>
-              <Button variant="link" className="text-blue-600 mt-2" onClick={() => { window.open("/Shubham_Gagare_Resume.pdf", "_blank"); }}>
-                <Code2 className="w-4 h-4 mr-2" />
+              <Button variant="link" className="text-blue-600 text-lg font-bold hover:underline" onClick={() => { window.open("/Shubham_Gagare_Resume.pdf", "_blank"); }}>
+                <Code2 className="w-5 h-5 mr-2" />
                 Download PDF Resume
               </Button>
             </div>
@@ -876,15 +958,17 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-400">
+      <footer className="bg-gray-900 text-white py-12 relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-4 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxMjAwIDYwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cGF0aCBkPSJNMCAwYzAgMCAyMDAgNjAgNjAwIDYwczYwMC02MCA2MDAtNjB6IiBmaWxsPSIjZmZmIi8+PC9zdmc+')] rotate-180 transform -translate-y-1"></div>
+        <div className="container mx-auto px-4 text-center relative z-10">
+          <p className="font-hand text-xl text-gray-300">
             {mode === "munna"
-              ? "Made with ❤️ by Shubham"
+              ? "Dil se banaya hai ❤️ by Shubham "
               : mode === "bro"
-                ? "Made with ❤️ and lots of coffee ☕ by Shubham "
-                : "Made with ❤️ by Shubham "}
+                ? "Built with ☕ and Code by Shubham"
+                : "Designed & Developed by Shubham Gagare"}
           </p>
+          <p className="text-gray-500 text-sm mt-2">© {new Date().getFullYear()} All Rights Reserved.</p>
         </div>
       </footer>
     </div>
