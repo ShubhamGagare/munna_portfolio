@@ -120,10 +120,10 @@ const Index = () => {
       subtitle: "AI ka Jalwa",
       broSubtitle: "AI Learning Platform that actually works",
       description:
-        "An AI-driven learning platform built leveraging LLMs. Focused on accessibility, performance, and a clean UI/UX. Teachers love it!",
+        "AI-driven adaptive learning platform using LLMs — dynamically generates course content, quizzes, and assessments based on learner profile and progress. Built with Next.js and TypeScript. Deployed on GCP.",
       broDescription:
         "AI-powered education platform leveraging LLMs using Next.js. Clean UI/UX, fully responsive, and performance-tuned. Teachers are literally saying 'This makes sense!'",
-      tech: ["Next.js", "React", "LLMs", "Design Systems"],
+      tech: ["Next.js", "TypeScript", "OpenAI APIs", "React", "Design Systems"],
       challenge:
         "Building a performant AI wrapper that is also accessible and easy to use for non-tech users.",
       broChallenge:
@@ -131,13 +131,33 @@ const Index = () => {
       status: "🚀 Live",
       confidential: false,
       link: "https://techdivehub.siyaratechin.com",
+      github: "https://github.com/ShubhamGagare",
+    },
+    {
+      title: "AI Sales Agent",
+      subtitle: "Automatic lead calling aur meeting booking",
+      broSubtitle: "AI that calls leads and books meetings — no human needed",
+      description:
+        "Autonomous AI voice agent integrated into the Siyaratech CRM. Calls leads automatically, delivers a contextual pitch about ERP/HRMS/CRM services, handles questions via Gemini LLM, and schedules meetings — end to end without human involvement. Built with LiveKit for real-time voice, Twilio for telephony, and Gemini for conversation intelligence.",
+      broDescription:
+        "AI picks up the phone, calls your leads, pitches the product, answers questions, and books a meeting. Zero SDR needed for initial outreach. LiveKit + Twilio + Gemini under the hood.",
+      tech: ["LiveKit", "Twilio", "Gemini AI", "Node.js", "React"],
+      challenge:
+        "Orchestrating real-time voice, telephony, and LLM response generation with low enough latency to feel like a natural conversation. Handling interruptions, objections, and context-switching mid-call.",
+      broChallenge:
+        "Making AI sound human enough that leads don't hang up. Real-time voice + LLM latency is brutal — every millisecond shows.",
+      status: "🛠️ Built",
+      confidential: true,
+      internalOnly: true,
+      link: "NA",
+      github: "private",
     },
     {
       title: "Consortium",
       subtitle: "Influencers ka Bazaar",
       broSubtitle: "Influencer-led E-commerce",
       description:
-        "An influencer-based e-commerce platform where creators curate and sell products. Features seamless social integration and payouts.",
+        "Influencer-led e-commerce platform with high-concurrency product drops. Handled traffic spikes from influencer posts with proper load handling and inventory sync.",
       broDescription:
         "Shopify for Influencers. Creators pick products, sell to fans, make bank. We handled the crazy traffic spikes when they posted! 💸",
       tech: ["React", "Node.js", "AWS", "Payments"],
@@ -145,19 +165,20 @@ const Index = () => {
         "Managing high concurrency and inventory sync during influencer product drops.",
       broChallenge:
         "When an influencer posts, traffic goes 0 to 100 in seconds. keeping the servers alive was the real game.",
-      status: "�️ Live",
+      status: "🛍️ Live",
       confidential: false,
       link: "https://consortium.siyaratechin.com",
+      github: "https://github.com/ShubhamGagare",
     },
     {
       title: "Construction Management System",
       subtitle: "Hisaab Kitaab",
       broSubtitle: "Building the Builders",
       description:
-        "A system for real-time cost and project tracking in construction. Helps manage inventory, labor, and timelines.",
+        "Full-stack construction ERP handling real-time cost tracking, multi-role workflows, and project milestone management. React frontend + Java Spring Boot backend, deployed on GCP with PostgreSQL.",
       broDescription:
         "Real-time tracking for construction projects. Costs, inventory, labor—tracking every brick and rupee.",
-      tech: ["React", "Spring Boot", "Calculations"],
+      tech: ["React", "Java Spring Boot", "PostgreSQL", "GCP"],
       challenge:
         "Complex data models and real-time updates were key. Needed to be robust for on-site usage.",
       broChallenge:
@@ -165,6 +186,25 @@ const Index = () => {
       status: "🏗️ In Use",
       confidential: true,
       link: "NA",
+      github: "private",
+    },
+    {
+      title: "AI WhatsApp Commerce",
+      subtitle: "WhatsApp pe Dukaan",
+      broSubtitle: "Shopping on WhatsApp",
+      description:
+        "AI-powered WhatsApp commerce flow — LLM-based intent parsing understands natural language shopping requests, matches against product catalogue, and manages order flow entirely within WhatsApp.",
+      broDescription:
+        "Ordered groceries by just texting WhatsApp. AI figures out what you want, finds it, confirms the order. No app needed.",
+      tech: ["LLM APIs", "WhatsApp Business API", "Node.js", "React"],
+      challenge:
+        "Parsing ambiguous natural language shopping intents reliably and keeping order flow conversational without a traditional UI.",
+      broChallenge:
+        "Teaching AI to understand 'bhai ek kilo tamatar bhejo' and turn it into a real order. NLP in the wild.",
+      status: "🚀 Live",
+      confidential: false,
+      link: "#",
+      github: "https://github.com/ShubhamGagare",
     },
     {
       title: "AI Marketing Agent",
@@ -182,6 +222,7 @@ const Index = () => {
       status: "🚧 Building",
       confidential: false,
       link: "#",
+      github: "https://github.com/ShubhamGagare",
     },
   ]
 
@@ -632,6 +673,15 @@ const Index = () => {
                           <div className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse"></div>
                           <p className="text-sm text-yellow-800 font-medium">
                             Confidential Project (NDA Signed) 🤫
+                          </p>
+                        </div>
+                      )}
+
+                      {project.internalOnly && (
+                        <div className="mt-2 bg-red-50 p-3 rounded-lg border-2 border-dashed border-red-300 flex items-center gap-2">
+                          <div className="w-2 h-2 rounded-full bg-red-400 animate-pulse"></div>
+                          <p className="text-sm text-red-800 font-medium">
+                            Internal Tool — Not Publicly Accessible 🔒
                           </p>
                         </div>
                       )}
