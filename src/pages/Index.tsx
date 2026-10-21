@@ -75,10 +75,10 @@ export default function Index() {
         <section id="experience" className="page-width section-space" aria-labelledby="experience-heading">
           <div className="section-heading"><p className="eyebrow">02 / THE JOURNEY</p><h2 id="experience-heading" className="section-title">{text.experience}</h2><p className="section-description">{text.experienceIntro}</p></div>
           <div className="experience-list">{experience.map((job, index) => (
-            <article className="experience-row" key={job.company}>
+            <article className={`experience-row ${job.company === "Siyaratech Innovations" ? "experience-featured" : ""}`} key={job.company}>
               <div className={`company-mark company-${index}`} aria-hidden="true">{job.initials}</div>
               <div className="experience-body"><div className="experience-heading"><div><h3>{job.company}</h3><p className="job-role">{job.role}</p></div><p className="job-period">{job.period}</p></div><p className="job-summary">{job.summary[mode]}</p>
-                <details className="contribution-details"><summary>{text.details}<span aria-hidden="true">+</span></summary><ul>{job.details.map((detail) => <li key={detail}>{detail}</li>)}</ul>{job.link.startsWith("#") ? <a className="text-link" href={job.link}>Explore work <ArrowRight size={16} /></a> : <Link className="text-link" to={job.link}>{text.caseStudy}<ArrowRight size={16} /></Link>}</details>
+                <details className="contribution-details" open={job.company === "Siyaratech Innovations"}><summary>{text.details}<span aria-hidden="true">+</span></summary><ul>{job.details.map((detail) => <li key={detail}>{detail}</li>)}</ul>{job.link.startsWith("#") ? <a className="text-link" href={job.link}>Explore work <ArrowRight size={16} /></a> : <Link className="text-link" to={job.link}>{text.caseStudy}<ArrowRight size={16} /></Link>}</details>
               </div>
             </article>
           ))}</div>
@@ -90,7 +90,7 @@ export default function Index() {
             <article className="engineering-card" id={index === 0 ? "construction-erp" : undefined} key={project.title}>
               <div className="project-topline"><span>{project.category}</span><span className="status-label">{project.status}</span></div>
               <h3>{project.title}</h3><p>{mode === "bro" ? project.bro : mode === "munna" ? project.munna : project.description}</p><p className="project-tech">{project.tech}</p>
-              {project.link && <a className="text-link" href={project.link} target="_blank" rel="noopener noreferrer">Visit product <ArrowUpRight size={16} /></a>}
+              {project.link && (project.link.startsWith("/") ? <Link className="text-link" to={project.link}>{text.caseStudy}<ArrowRight size={16} /></Link> : <a className="text-link" href={project.link} target="_blank" rel="noopener noreferrer">Visit product <ArrowUpRight size={16} /></a>)}
             </article>
           ))}</div>
           <details className="personal-work"><summary>{mode === "munna" ? "Aur apne kuch projects" : mode === "bro" ? "A couple more personal builds" : "Additional personal projects"}<span aria-hidden="true">+</span></summary><div className="personal-grid"><article><h3>Students AI Assistant</h3><p>An AI study assistant focused on explaining concepts and helping students work through learning material.</p><span>Next.js · Python · LLMs</span></article><article><h3>MarathaMatrimony</h3><p>A community-focused matrimony application with profile matching, chat, and verification workflows.</p><span>React Native · Firebase · Node.js</span></article></div></details>
@@ -113,7 +113,7 @@ export default function Index() {
           <p className="world-caption handwritten">{mode === "munna" ? "Build. Design. Seekho. Phir se." : "Build. Design. Ship. Learn. Repeat."}</p>
         </section>
 
-        <section id="contact-section" className="contact-section section-space"><div className="page-width contact-inner"><div><p className="eyebrow">NEXT / SOMETHING WE BUILD TOGETHER</p><h2>{text.contact}</h2><p>{text.contactText}</p><Button asChild className="sketch-action primary-action" size="lg"><a href="mailto:shubhamgagare1997@gmail.com"><Mail size={18} />{text.contactCta}<ArrowUpRight size={17} /></a></Button></div><div className="contact-links"><a href="https://www.linkedin.com/in/shubham-gagare-543a05160/" target="_blank" rel="noopener noreferrer"><Linkedin size={18} /> LinkedIn <ArrowUpRight size={16} /></a><a href="https://github.com/ShubhamGagare" target="_blank" rel="noopener noreferrer"><Github size={18} /> GitHub <ArrowUpRight size={16} /></a><a href="/Shubham_Gagare_Resume.pdf" target="_blank" rel="noopener noreferrer"><Download size={18} /> PDF résumé <ArrowUpRight size={16} /></a></div></div></section>
+        <section id="contact-section" className="contact-section section-space"><div className="page-width contact-inner"><div><p className="eyebrow">NEXT / SOMETHING WE BUILD TOGETHER</p><h2>{text.contact}</h2><p>{text.contactText}</p><Button asChild className="sketch-action primary-action" size="lg"><a href="mailto:shubhamgagare1997@gmail.com"><Mail size={18} />{text.contactCta}<ArrowUpRight size={17} /></a></Button></div><div className="contact-links"><a href="https://www.linkedin.com/in/shubham-gagare-543a05160/" target="_blank" rel="noopener noreferrer"><Linkedin size={18} /> LinkedIn <ArrowUpRight size={16} /></a><a href="https://github.com/ShubhamGagare" target="_blank" rel="noopener noreferrer"><Github size={18} /> GitHub <ArrowUpRight size={16} /></a><a href="/Shubham_Gagare_SeniorEngineer.pdf" target="_blank" rel="noopener noreferrer"><Download size={18} /> PDF résumé <ArrowUpRight size={16} /></a></div></div></section>
       </main>
       <footer className="portfolio-footer page-width"><p>{text.footer}<span>© {new Date().getFullYear()} Shubham Gagare</span></p><a href="#handcraft-ui"><Check size={14} /> HandCraftUI components, made by me.</a><a href="#" className="back-top">Back to top ↑</a></footer>
     </div>

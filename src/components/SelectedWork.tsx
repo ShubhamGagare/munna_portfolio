@@ -3,12 +3,14 @@ import { ArrowRight, ArrowUpRight, Check, Database, FileText, Network, MessageSq
 import { aiCaseStudies } from "@/data/aiCaseStudies";
 import { copy } from "@/data/portfolio";
 import type { PortfolioMode } from "@/hooks/use-portfolio-mode";
+import ConstructionFeature from "@/components/ConstructionFeature";
 
 export default function SelectedWork({ mode }: { mode: PortfolioMode }) {
   const text = copy[mode];
   return (
     <section id="recent-work-section" className="page-width section-space" aria-labelledby="selected-work-heading">
       <div className="section-heading"><p className="eyebrow">01 / SELECTED WORK</p><h2 id="selected-work-heading" className="section-title">{text.work}</h2><p className="section-description">{text.workIntro}</p></div>
+      <ConstructionFeature mode={mode} />
       <div className="selected-grid">
         {aiCaseStudies.map((project, index) => (
           <article className="selected-card" key={project.slug}>
@@ -19,7 +21,7 @@ export default function SelectedWork({ mode }: { mode: PortfolioMode }) {
             <div className="selected-card-copy"><p className="project-topline">Kforce <span>Enterprise AI</span></p><h3><Link to={`/work/${project.slug}`}>{project.title}</Link></h3><p>{mode === "munna" ? index === 0 ? "Documents, knowledge aur agents ek jagah. Har answer ke saath context, taaki review aasaan ho." : "Message aur receipt se benefit workflow tak. Jahan zaroorat ho, human review ka clear raasta." : mode === "bro" ? index === 0 ? "A shared home for documents, agents, and answers people can actually inspect." : "Connecting messages, receipts, and benefit rules — with a clear place for human review." : project.summary}</p><div className="tag-list">{project.tags.slice(0, 3).map(tag => <span key={tag}>{tag}</span>)}</div><Link to={`/work/${project.slug}`} className="text-link">{text.caseStudy}<ArrowUpRight size={17} /></Link></div>
           </article>
         ))}
-        <article className="selected-small"><div className="selected-small-icon construction-icon"><CodeIcon /></div><div><p className="project-topline">Siyaratech · Founding Engineer</p><h3>Construction & Real Estate ERP</h3><p>{mode === "munna" ? "Site ka kaam, software ka saath." : mode === "bro" ? "The full stack, for the people building things." : "Full-stack workflows for construction operations."}</p><a href="#construction-erp" className="text-link">{mode === "munna" ? "Kaam dekho" : "Explore engineering work"}<ArrowRight size={16} /></a></div></article>
+        <article className="selected-small"><div className="selected-small-icon construction-icon"><CodeIcon /></div><div><p className="project-topline">Siyaratech · Product portfolio</p><h3>Learning, commerce & automation</h3><p>{mode === "munna" ? "Ek project nahi, alag-alag teams aur products ka safar." : mode === "bro" ? "Different products, different teams. Involved from the client conversation to delivery." : "Multi-project delivery across learning, commerce, and automation."}</p><a href="#siyaratech-projects" className="text-link">{mode === "munna" ? "Aur kaam dekho" : "Explore Siyaratech work"}<ArrowRight size={16} /></a></div></article>
         <article className="selected-small"><div className="selected-small-icon school-icon"><BookIcon /></div><div><p className="project-topline">ParentPay · Product Designer</p><h3>SIMS Next Gen</h3><p>{mode === "munna" ? "School staff ka roz ka kaam, thoda aasaan." : mode === "bro" ? "Better school days start with better workflows." : "Research and product design for UK schools."}</p><Link to="/parentpay" className="text-link">{text.caseStudy}<ArrowRight size={16} /></Link></div></article>
       </div>
     </section>

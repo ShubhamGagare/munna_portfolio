@@ -11,6 +11,7 @@ import NotFound from "@/pages/NotFound";
 import VolpayTestSuite from "@/pages/VolpayTestSuite";
 import ParentPayOverview from "@/pages/ParentPayOverview";
 import AICaseStudy from "@/pages/AICaseStudy";
+import ConstructionERP from "@/pages/ConstructionERP";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/volpay-testsuite" element={<VolpayTestSuite />} />
           <Route path="/parentpay" element={<ParentPayOverview />} />
           <Route path="/work/:slug" element={<AICaseStudy />} />
+          <Route path="/work/construction-erp" element={<ConstructionERP />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
