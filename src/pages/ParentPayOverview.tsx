@@ -1,12 +1,10 @@
-"use client"
-
-import { useState } from "react"
+import { usePortfolioMode } from "@/hooks/use-portfolio-mode"
+import CaseHeader from "@/components/CaseHeader"
 import { Button } from "@/components/ui/button"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
-import { ArrowLeft } from "lucide-react"
 
 const ParentPayOverview = () => {
-  const [mode, setMode] = useState<"munna" | "professional" | "bro">("bro")
+  const [mode, setMode] = usePortfolioMode()
 
   const getContent = () => {
     if (mode === "munna") {
@@ -70,36 +68,9 @@ const ParentPayOverview = () => {
   const content = getContent()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
+    <div className="portfolio-shell legacy-case" data-tone={mode}>
       {/* Header */}
-      <header className="border-b-4 border-dashed border-blue-400 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <Button variant="outline" onClick={() => window.history.back()} className="flex items-center gap-2">
-            <ArrowLeft className="w-4 h-4" />
-            {mode === "munna" ? "Wapas Jao" : mode === "bro" ? "Go Back" : "Back"}
-          </Button>
-
-          <div className="flex items-center space-x-2">
-            <Button variant={mode === "bro" ? "default" : "outline"} onClick={() => setMode("bro")} className="text-sm">
-              Bro Mode
-            </Button>
-            <Button
-              variant={mode === "munna" ? "default" : "outline"}
-              onClick={() => setMode("munna")}
-              className="text-sm"
-            >
-              Munna Mode
-            </Button>
-            <Button
-              variant={mode === "professional" ? "default" : "outline"}
-              onClick={() => setMode("professional")}
-              className="text-sm"
-            >
-              Professional Mode
-            </Button>
-          </div>
-        </div>
-      </header>
+      <CaseHeader mode={mode} setMode={setMode} />
 
       <section className="w-full py-20">
         <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">{content.title}</h1>

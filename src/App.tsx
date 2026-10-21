@@ -10,6 +10,7 @@ import TakeRegister from "@/pages/TakeRegister";
 import NotFound from "@/pages/NotFound";
 import VolpayTestSuite from "@/pages/VolpayTestSuite";
 import ParentPayOverview from "@/pages/ParentPayOverview";
+import AICaseStudy from "@/pages/AICaseStudy";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/take-register" element={<TakeRegister />} />
           <Route path="/volpay-testsuite" element={<VolpayTestSuite />} />
           <Route path="/parentpay" element={<ParentPayOverview />} />
+          <Route path="/work/:slug" element={<AICaseStudy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

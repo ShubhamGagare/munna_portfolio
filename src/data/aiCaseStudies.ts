@@ -1,0 +1,38 @@
+export const aiCaseStudies = [
+  {
+    slug: "enterprise-ai-platform",
+    title: "Enterprise AI Knowledge & Agent Platform",
+    subtitle: "A configurable workspace for document-grounded AI applications",
+    summary: "Connecting knowledge management, document analysis, agent configuration and evaluation in a coherent enterprise workspace.",
+    role: "UX architecture · Product design · Engineering collaboration",
+    tags: ["Enterprise UX", "RAG", "Knowledge Graphs", "AI Agents"],
+    steps: ["Organize knowledge", "Configure agents", "Analyze documents", "Inspect evidence", "Evaluate responses"],
+    sections: [
+      { title: "Problem", paragraphs: ["Enterprise AI applications need more than a conversational interface. Teams need to organize knowledge, configure agent behavior, inspect evidence and evaluate responses to understand when an answer can be trusted."] },
+      { title: "Context", paragraphs: ["A modular enterprise AI platform supporting banking, healthcare and insurance use cases. Administrators and client-facing users need connected workflows for knowledge management, document analysis and evaluation."] },
+      { title: "My Role", paragraphs: ["Defined user journeys, information architecture and interaction models for administrator and client-facing experiences. Worked with engineering stakeholders to translate AI capabilities and technical requirements into understandable product behavior."] },
+      { title: "Approach", paragraphs: ["Organized the experience around knowledge, workspaces, agents and evaluation. Connected ingestion and indexing states to downstream analysis, and made evidence and review accessible alongside AI-generated results."], items: ["Mapped journeys across document ingestion, analysis and review.", "Designed navigation for client-specific configurations and reusable workflows.", "Worked with engineering on feasibility, data representation and interaction patterns."] },
+      { title: "Solution", paragraphs: ["A configurable workspace bringing related AI workflows together without hiding the information users need to assess results."], items: ["Knowledge management: document ingestion, datasets, indexing status and knowledge-graph exploration.", "AI workspaces: document comparison, policy compliance, completeness checks, anomaly identification and timeline analysis.", "Agent configuration: interfaces for agent behavior and reusable configurations.", "Trust and evaluation: source grounding, evaluation results, regression testing and improvement workflows."] },
+      { title: "Technical Context", paragraphs: ["Solution-design context includes RAG, vector search, knowledge graphs, AI agents, document processing and evaluation workflows. React and TypeScript inform the interface work; Azure AI and Azure OpenAI provide the broader technical context."] },
+      { title: "Outcome", paragraphs: ["Created a coherent product experience for configurable, document-grounded enterprise AI workflows, connecting knowledge management, agent setup, analysis and evaluation."] },
+    ],
+  },
+  {
+    slug: "conversational-benefits",
+    title: "Conversational AI for Benefits Administration",
+    subtitle: "Turning conversations and receipts into guided benefit workflows",
+    summary: "SMS/MMS intake, document understanding and benefit-rule validation, with clear exception handling and administrator review.",
+    role: "Solution design · Admin UX · Review workflows",
+    tags: ["Conversational AI", "Document Intelligence", "Human Review", "Enterprise UX"],
+    steps: ["SMS / MMS intake", "Understand documents", "Validate benefit rules", "Review exceptions", "Present benefit options"],
+    sections: [
+      { title: "Problem", paragraphs: ["Members submitting receipts or checking benefit eligibility often navigate disconnected steps. Missing information and unclear exceptions add friction for both members and administrators."] },
+      { title: "Context", paragraphs: ["A conversational benefits administration experience combining SMS/MMS interactions, receipt processing, eligibility rules and human review. The experience connects member requests with administrative oversight."] },
+      { title: "My Role", paragraphs: ["Contributed to solution design and designed administrative workflows and review experiences. Defined information architecture for monitoring, members, claims and activity, working through how processing stages and exceptions should be represented."] },
+      { title: "Approach", paragraphs: ["Mapped the journey from message intake to document understanding, rule validation and benefit options. Distinguished automated processing from actions requiring human intervention, with explicit states for missing information and exceptions."], items: ["Structured conversation monitoring and review queues around administrator tasks.", "Explored visual representations of processing stages and exception handling.", "Connected claims, member context and activity to support review decisions."] },
+      { title: "Solution", paragraphs: ["A guided conversation supported by an administrative workspace for reviewing claims and monitoring activity."], items: ["Members initiate requests and submit receipts through SMS or MMS.", "Document intelligence extracts and standardizes receipt information.", "Business rules check eligibility and available benefit options.", "Unclear or exceptional cases are directed to human review.", "Administrators monitor conversations, claims, review queues and activity."] },
+      { title: "Technical Context", paragraphs: ["Solution-design context includes Twilio, Azure AI Document Intelligence, Azure OpenAI, Azure Service Bus, Azure App Service, Azure SQL and API integrations, alongside React-based interfaces."] },
+      { title: "Outcome", paragraphs: ["Developed product and workflow designs for AI-assisted benefits administration, connecting conversational intake, document processing, rule validation and administrator review."] },
+    ],
+  },
+];
