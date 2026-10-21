@@ -169,3 +169,12 @@ details[open] > summary > span { transform: rotate(45deg); }
   .case-header .header-inner { gap: 8px; flex-wrap: wrap; padding-block: 14px; }.case-back { font-size: 11px; }.case-hero { padding-top: 40px; }.case-hero h1 { font-size: 38px; }.case-intro { font-size: 17px; }.case-workflow { padding: 20px; }.case-workflow ol { grid-template-columns: 1fr; gap: 8px; }.case-workflow li { display: flex; align-items: center; gap: 14px; padding: 11px 12px; }.case-workflow li span { margin: 0; }.case-section { grid-template-columns: 1fr; gap: 17px; padding: 26px 0; }.case-section h2 { display: flex; align-items: center; gap: 12px; }.case-section h2 span { margin: 0; }.case-section p,.case-section li { font-size: 13px; }
 }
 @media (prefers-reduced-motion: reduce) { .portfolio-shell *, .portfolio-shell *::before, .portfolio-shell *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+
+.techdive-feature { background: #f2edfa; border-color: #c7b9db; box-shadow: 4px 5px 0 #e5ddef; }
+.techdive-feature .erp-ownership-line { border-color: #ad95c5; }
+.learning-drawing { background: #fffcf5; transform: rotate(-1deg); }
+.learning-path { display: flex; gap: 10px; margin: 22px 0; }
+.learning-path > span { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 15px 6px; border: 1px dashed #ad95c5; border-radius: 13px 7px 16px 8px; font-size: 11px; text-align: center; }
+.learning-path > span:nth-child(2) { background: #fff1bf; transform: rotate(3deg); }
+.learning-drawing small { display: block; text-align: center; font-size: 10px; line-height: 1.8; color: var(--muted-ink); }
+.techdive-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 22px; }

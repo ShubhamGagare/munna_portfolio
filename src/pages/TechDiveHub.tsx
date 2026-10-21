@@ -1,0 +1,30 @@
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
+import CaseHeader from "@/components/CaseHeader";
+import { usePortfolioMode } from "@/hooks/use-portfolio-mode";
+import { learningSteps, techDiveCopy } from "@/data/techDiveHub";
+
+export default function TechDiveHub() {
+  const [mode, setMode] = usePortfolioMode();
+  const text = techDiveCopy[mode];
+  useEffect(() => { const title = document.title; document.title = "TechDiveHub | Shubham Gagare"; window.scrollTo(0, 0); return () => { document.title = title; }; }, []);
+  return <div className="portfolio-shell" data-tone={mode}>
+    <a className="skip-link" href="#case-main">Skip to case study</a><CaseHeader mode={mode} setMode={setMode} />
+    <main id="case-main" className="page-width case-main">
+      <div className="case-hero"><p className="eyebrow">Siyaratech · Product engineering · AI learning</p><h1>TechDiveHub</h1><p className="case-intro">{text.motto} {text.summary}</p><p className="case-role">Learner discovery · Adaptive roadmaps · RAG-based content · Doodle-led learning experience</p><div className="tag-list"><span>Personalisation</span><span>Assessment feedback</span><span>Retrieval-augmented generation</span><span>Product design</span></div></div>
+      <figure className="case-workflow"><figcaption>{mode === "munna" ? "Pehle learner, phir lesson." : "Understand the person before building the path."}</figcaption><ol>{["Background & goals", "Target timeline", "Personal roadmap", "Learn & assess", "Adapt the roadmap"].map((step, i) => <li key={step}><span>0{i + 1}</span>{step}</li>)}</ol></figure>
+      <div className="case-sections">
+        <section className="case-section"><h2><span>01</span>{mode === "munna" ? "Sabka raasta alag hai" : "The learning problem"}</h2><div><p>A fixed syllabus assumes everyone starts in the same place and moves at the same pace. A learner switching careers, someone building on existing skills, and someone working towards a deadline need different routes through the same subject.</p><p>TechDiveHub starts with the learner’s background, goals, and timeline. Understanding those constraints is part of the product experience, before the roadmap or lessons are generated.</p></div></section>
+        <section className="case-section"><h2><span>02</span>{mode === "munna" ? "Apun ka focus" : "My contribution"}</h2><div><p>I developed the learner-first personalisation experience: understanding the learner, creating a dynamic roadmap, and adapting it when assessments revealed difficult topics or gaps in the basics.</p><p>I used RAG to connect maintained technical concept documentation to personalised content generation at runtime. Fun language and doodle visuals carried the same principle through the interface and learning content: learning should be fun.</p></div></section>
+      </div>
+      <section className="erp-solution" aria-labelledby="learning-heading"><p className="eyebrow">03 / THE LEARNING LOOP</p><h2 id="learning-heading" className="section-title">{mode === "munna" ? "Samjho. Seekho. Raasta badlo." : "A roadmap that responds to the learner."}</h2><div className="erp-module-grid">{learningSteps.map((step, i) => <article className="erp-module-card" key={step.title}><p className="eyebrow">0{i + 1}</p><h3>{step.title}</h3><p>{step.detail}</p></article>)}</div></section>
+      <div className="case-sections">
+        <section className="case-section"><h2><span>04</span>{mode === "munna" ? "Docs se apni language tak" : "How RAG supports personalisation"}</h2><div><p>Technical concept documents were maintained as source material. At runtime, relevant documentation was retrieved and used alongside learner context to generate a fresh explanation suited to that person.</p><p>This gives the content a shared technical reference while allowing the explanation, level of detail, and playful tone to respond to the learner. Personalisation extends into how a concept is explained, as well as which topic comes next.</p><p className="erp-module-result">Technical source documents → relevant retrieved context + learner background → personalised content at runtime.</p></div></section>
+        <section className="case-section"><h2><span>05</span>{mode === "munna" ? "Basics pe atke? Koi tension nahi." : "Assessment changes the next step"}</h2><div><p>Assessment findings feed back into the roadmap. If a learner struggles with a topic or needs more work on prerequisites, the path adjusts to give those foundations attention before continuing.</p><p>For example, a learner aiming to study React who struggles with JavaScript fundamentals needs a route back through those basics. This illustrates the adaptation principle: the target remains meaningful, while the route responds to understanding.</p></div></section>
+        <section className="case-section"><h2><span>06</span>{mode === "munna" ? "Learning mein mazaa zaroori hai" : "A playful product experience"}</h2><div><p>Doodle visuals, conversational explanations, and interactive learning make technical subjects more approachable. The tone carries through the experience, including the personalised content generated for each learner.</p><p>The original TechDiveHub site presents the fun learning identity and course experience. TechDiveHub 2.0 foregrounds personalised onboarding, learning goals, timelines, and adaptive learning.</p><div className="techdive-links"><a className="text-link" href="https://techdivehub.siyaratechin.com/" target="_blank" rel="noopener noreferrer">Explore TechDiveHub<ArrowUpRight size={16} /></a><a className="text-link" href="https://techdivehub-2-0.vercel.app/" target="_blank" rel="noopener noreferrer">Explore TechDiveHub 2.0<ArrowUpRight size={16} /></a></div></div></section>
+      </div>
+      <footer className="case-footer"><p>Learning should be fun.</p><Link className="text-link" to="/work/enterprise-ai-platform">Next: Enterprise AI Knowledge & Agent Platform<ArrowRight size={17} /></Link></footer>
+    </main>
+  </div>;
+}

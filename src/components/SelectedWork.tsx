@@ -4,6 +4,7 @@ import { aiCaseStudies } from "@/data/aiCaseStudies";
 import { copy } from "@/data/portfolio";
 import type { PortfolioMode } from "@/hooks/use-portfolio-mode";
 import ConstructionFeature from "@/components/ConstructionFeature";
+import TechDiveFeature from "@/components/TechDiveFeature";
 
 export default function SelectedWork({ mode }: { mode: PortfolioMode }) {
   const text = copy[mode];
@@ -11,6 +12,7 @@ export default function SelectedWork({ mode }: { mode: PortfolioMode }) {
     <section id="recent-work-section" className="page-width section-space" aria-labelledby="selected-work-heading">
       <div className="section-heading"><p className="eyebrow">01 / SELECTED WORK</p><h2 id="selected-work-heading" className="section-title">{text.work}</h2><p className="section-description">{text.workIntro}</p></div>
       <ConstructionFeature mode={mode} />
+      <TechDiveFeature mode={mode} />
       <div className="selected-grid">
         {aiCaseStudies.map((project, index) => (
           <article className="selected-card" key={project.slug}>
