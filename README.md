@@ -62,6 +62,13 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### Vercel Web Analytics
+
+The app includes Vercel's Web Analytics script in `index.html` to track page views across the portfolio.
+Enable Web Analytics in the Vercel project's Analytics tab, then deploy the updated app. Visit the deployed site to generate traffic and check the dashboard. No API key or environment variable is required for this integration.
+
+See [Vercel's setup guide](https://vercel.com/docs/analytics/quickstart).
+
 Simply open [Lovable](https://lovable.dev/projects/313d4285-1412-4943-8a15-71a51e2c22c2) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
